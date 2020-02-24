@@ -48,10 +48,12 @@ API_MANAGER_NS: "{{lab_name}}-{{OCP_AMP_ADMIN_ID}}"
 is_shared_cluster: false
 
 # Use this for 3scale AMP on shared cluster
-threescale_template_shared: https://raw.githubusercontent.com/3scale/3scale-amp-openshift-templates/2.7.1.GA/amp/amp.yml
+# threescale_template_shared: https://raw.githubusercontent.com/3scale/3scale-amp-openshift-templates/2.7.1.GA/amp/amp.yml
+threescale_template_shared: https://raw.githubusercontent.com/southernreader/3scale-amp-openshift-templates/master/amp/amp.yml
 
 # Use this for 3scale AMP on dedicated single VM
-threescale_template_dedicated: https://raw.githubusercontent.com/3scale/3scale-amp-openshift-templates/2.7.1.GA/amp/amp.yml
+# threescale_template_dedicated: https://raw.githubusercontent.com/3scale/3scale-amp-openshift-templates/2.7.1.GA/amp/amp.yml
+threescale_template_dedicated: https://raw.githubusercontent.com/southernreader/3scale-amp-openshift-templates/master/amp/amp.yml
 
 work_dir: "/tmp/{{API_MANAGER_NS}}"
 modified_template_path: "{{work_dir}}/amp.yml"
